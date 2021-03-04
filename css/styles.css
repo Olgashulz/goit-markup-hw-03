@@ -1,0 +1,372 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --logo-font: 'Raleway', sans-serif;
+    --accent-color: #2196F3;
+    --title-color: #212121;
+    --text-color: #757575;
+    --colorOn-darkВackground: #ffffff;
+    --margin-bottom-section: 94px;
+    --margin-bottom-title:50px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.address {
+    font-style: normal;
+}
+
+body{
+    font-family: var(--main-font);
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, 
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+/* ============== CONTAINER ============== */
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/* ============== LOGO ============== */
+.logo {
+margin-right: 93px;
+font-family: var(--logo-font);
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+
+.logo-part-black{
+color: #000;
+}
+
+.logo-part-white{
+color: var(--colorOn-darkВackground);
+}
+/* ============== END LOGO ============== */
+
+
+/* ============== HEADER ============== */
+.header{
+    outline: 1px solid red;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    outline: 1px solid red;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list .navigation-item + .navigation-item{
+    margin-left: 50px;
+}
+
+.contact{
+    display: flex;
+    margin-left: auto;
+}
+
+.contact .list + .list{
+    margin-left: 30px;
+}
+
+.navigation-list{
+    display: flex;
+}
+.navigation-link{
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--title-color);
+
+}
+
+.navigation-list .link.current{
+    color: var(--accent-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus,
+.navigation-link:active {
+    color: var(--accent-color);
+}
+
+.contact-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
+
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--accent-color);
+}
+/* ============== END HEADER ============== */
+
+
+/* ============== HERO ============== */
+.hero{
+    margin-bottom: 94px;
+    outline: 1px solid red;
+}
+.hero-title {
+width: 696px;
+display: block;
+margin: 0 auto;
+margin-bottom: 30px;
+text-align: center;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+/* color: var(--darkВackground-color); */
+}
+/* ============== END HERO ============== */
+
+
+/* ============== ADVANTAGE ============== */
+.advantage-list{
+display: flex;
+outline: 1px solid red;
+}
+.advantage{
+    margin-bottom: var(--margin-bottom-section);
+}
+.advantage-item{
+flex-basis: calc((100% -90px)/ 4);
+}
+
+.advantage-list :not(:last-child) {
+    margin-right: 30px;
+  }
+
+.advantage-item-title {
+margin-bottom: 10px;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-color);
+}
+
+.advantage-item-description {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--text-color);
+}
+/* ============== END ADVANTAGE ============== */
+
+
+/* ============== WHAT WE DO ============== */
+.whatWeDo{
+    margin-bottom: var(--margin-bottom-section);
+    outline: 1px solid red;
+}
+.whatWeDo-img{
+    min-width: 370;
+    height: auto;
+    outline: 1px solid red;
+}
+
+.whatWeDo-list{
+display: flex;
+outline: 1px solid red;
+}
+
+.whatWeDo-item{
+flex-basis: calc((100% -90px)/ 3);
+outline: 1px solid red;
+}
+    
+.whatWeDo-list :not(:last-child) {
+margin-right: 30px;
+}
+
+
+/* ============== END WHAT WE DO ============== */
+ 
+/* ============== OUR TEAM ============== */
+.ourTeam{
+padding-top: var(--margin-bottom-section);
+padding-bottom: var(--margin-bottom-section);
+outline: 1px solid red;
+}
+
+.ourTeam-link-img{
+    margin-bottom: 30px;
+}
+
+.ourTeam-list{
+    display: flex;
+    outline: 1px solid red;
+}
+
+.ourTeam-link{
+    flex-basis: calc((100% -90px)/ 4);
+}
+
+.ourTeam-list .ourTeam-link + .ourTeam-link{
+    margin-left: 30px;
+}
+  
+.ourTeam-link-name {
+margin-bottom: 10px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
+
+.ourTeam-link-position {
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
+/* ============== END OUR TEAM ============== */
+
+
+/* ============== FOOTER ============== */
+
+.footer{
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-contact-link {
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link{
+color: var(--colorOn-darkВackground);
+}
+.footer .logo{
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* ============== END FOOTER ============== */
+
+
+/* ============== COMPONENTS ============== */
+.modal-button {
+display: block;
+margin: 0 auto;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+color: var(--colorOn-darkВackground);  
+background-color:var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+border-color: var(--accent-color);
+}
+
+.modal-button:hover,
+.modal-button:focus{
+background-color: #188CE8;
+border-color: #188CE8;   
+}
+
+.section-title {
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+margin-bottom: var(--margin-bottom-title);
+}
+
+/* ============== END COMPONENTS ============== */
+
+/* ============== PORTFOLIO ============== */
+.ourWorks-section {
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+background-color: #F5F4FA;
+border-radius: 4px;
+border:#F5F4FA;
+cursor: pointer;
+}
+
+.ourWorks-section:hover,
+.ourWorks-section:focus {
+    background-color: #188CE8;
+    color: var(--colorOn-darkВackground);
+    border: #188CE8;
+}
+
+.ourWorks-card-title {
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: var(--title-color);
+}
+
+.ourWorks-card-section {
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: var(--text-color);
+}
+
+.ourWorks-card-hover{
+display: none;
+}
