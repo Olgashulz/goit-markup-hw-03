@@ -14,34 +14,37 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-<header class="header">
-    <nav class="navigation">
-        <a class="logo link" href="#" lang="en">
-            Web<span class="logo-part-black">Studio</span>
-        </a>
-        <ul class="navigation-list">
-            <li class=" navigation-item list">
-                <a class="navigation-link link" href="./index.html">Студия</a>
-            </li>
-            <li class=" navigation-item list">
-                <a class="navigation-link link current" href="./portfolio.html">Портфолио</a>
-            </li>
-            <li class=" navigation-item list">
-                <a class="navigation-link link" href="#">Контакты</a>
-            </li>
-        </ul>
-    </nav>
-    <ul>
-        <li class="list">
-            <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="list">
-            <a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-    </ul>
-</header>
+    <header class="header">
+        <div class="container navigation-portfolio">
+                <nav class="navigation">
+                    <a class="logo link" href="#" lang="en">
+                        Web<span class="logo-part-black">Studio</span>
+                    </a>
+                    <ul class="navigation-list">
+                        <li class=" navigation-item list">
+                            <a class="navigation-link link current" href="./index.html">Студия</a>
+                        </li>
+                        <li class=" navigation-item list">
+                            <a class="navigation-link link" href="./portfolio.html">Портфолио</a>
+                        </li>
+                        <li class=" navigation-item list">
+                            <a class="navigation-link link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="contact">
+                    <li class="list">
+                        <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="list">
+                        <a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+        </div>
+        </header>   
 <main>
     <section class="ourWorks">
+        <div class="container">
         <ul class="ourWorks-list">
             <li class="list">
                 <button class="ourWorks-section" type="button">Все</button>
@@ -64,100 +67,119 @@
             <li class="ourWorks-card list">
                 <a class="link" href="">
                     <img class="ourWorks-card-img" src="./images/portfolio/portfolio-img1.jpg" alt="Монитор ноутбука"  width="370" height="294">
-                    <h4 class="ourWorks-card-title">Технокряк</h4>
+                    <div class="card-caption">
+                        <h4 class="ourWorks-card-title">Технокряк</h4>
                     <p class="ourWorks-card-section">Веб-сайт</p>
                     <p class="ourWorks-card-hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                     шпионажа и атак на защищённые сервера конкурентов.
                 </p>
-                </a>
+                </div>
+            </a>
             </li>
             <li class="ourWorks-card list">
                 <a class="link" href="#">
                     <img class="ourWorks-card-img" src="./images/portfolio/portfolio-img2.jpg" alt="Два баскетболиста"  width="370" height="294">
-                    <h4 class="ourWorks-card-title">Постер New Orlean vs Golden Star</h4>
+                    <div class="card-caption">
+                        <h4 class="ourWorks-card-title">Постер New Orlean vs Golden Star</h4>
                     <p class="ourWorks-card-section">Дизайн</p>
                     <p class="ourWorks-card-hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                </a>
+                </div>
+            </a>
             </li>
             <li class="ourWorks-card list">
                 <a class="link" href="#">
                     <img class="ourWorks-card-img" src="./images/portfolio/portfolio-img3.jpg" alt="Логотип ресторана"  width="370" height="294">
-                    <h4 class="ourWorks-card-title">Ресторан Seafood</h4>
+                    <div class="card-caption">
+                        <h4 class="ourWorks-card-title">Ресторан Seafood</h4>
                     <p class="ourWorks-card-section">Приложение</p>
                     <p class="ourWorks-card-hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                </a>
+                </div>
+            </a>
             </li>
             <li class="ourWorks-card list">
                 <a class="link" href="#">
                     <img class="ourWorks-card-img" src="./images/portfolio/portfolio-img4.jpg" alt="Наушники"  width="370" height="294">
-                    <h4 class="ourWorks-card-title">Проект Prime</h4>
+                    <div class="card-caption">
+                        <h4 class="ourWorks-card-title">Проект Prime</h4>
                     <p class="ourWorks-card-section">Маркетинг</p>
                     <p class="ourWorks-card-hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                </a>
+                </div>
+            </a>
             </li>
             <li class="ourWorks-card list">
                 <a class="link" href="#">
                     <img class="ourWorks-card-img" src="./images/portfolio/portfolio-img5.jpg" alt="Две коробки"  width="370" height="294">
-                    <h4 class="ourWorks-card-title">Проект Boxes</h4>
+                    <div class="card-caption">
+                        <h4 class="ourWorks-card-title">Проект Boxes</h4>
                     <p class="ourWorks-card-section">Приложение</p>
                     <p class="ourWorks-card-hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                </a>
+                </div>
+            </a>
             </li>
             <li class="ourWorks-card list">
                 <a class="link" href="#">
                     <img class="ourWorks-card-img" src="./images/portfolio/portfolio-img6.jpg" alt="Монитор"  width="370" height="294">
-                    <h4 class="ourWorks-card-title">Inspiration has no Borders</h4>
+                    <div class="card-caption">
+                        <h4 class="ourWorks-card-title">Inspiration has no Borders</h4>
                     <p class="ourWorks-card-section">Веб-сайт</p>
                     <p class="ourWorks-card-hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                </a>
+                </div>
+            </a>
             </li>
             <li class="ourWorks-card list">
                 <a class="link" href="#">
                     <img class="ourWorks-card-img" src="./images/portfolio/portfolio-img7.jpg" alt="Разворот книги"  width="370" height="294">
-                    <h4 class="ourWorks-card-title">Издание Limited Edition</h4>
+                    <div class="card-caption">
+                        <h4 class="ourWorks-card-title">Издание Limited Edition</h4>
                     <p class="ourWorks-card-section">Дизайн</p>
                     <p class="ourWorks-card-hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                </a>
+                </div>
+            </a>
             </li>
             <li class="ourWorks-card list">
                 <a class="link" href="#">
                     <img class="ourWorks-card-img" src="./images/portfolio/portfolio-img8.jpg" alt="Бирка с названием проэкта"  width="370" height="294">
-                    <h4 class="ourWorks-card-title">Проект LAB</h4>
+                    <div class="card-caption">
+                        <h4 class="ourWorks-card-title">Проект LAB</h4>
                     <p class="ourWorks-card-section">Маркетинг</p>
                     <p class="ourWorks-card-hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                </a>
+                </div>
+            </a>
             </li>
             <li class="ourWorks-card list">
                 <a class="link" href="#">
                     <img class="ourWorks-card-img" src="./images/portfolio/portfolio-img9.jpg" alt="Ноутбук"  width="370" height="294">
-                    <h4 class="ourWorks-card-title">Growing Business</h4>
+                    <div class="card-caption">
+                        <h4 class="ourWorks-card-title">Growing Business</h4>
                     <p class="ourWorks-card-section">Приложение</p>
                     <p class="ourWorks-card-hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                </a>
+                </div>
+            </a>
             </li>
         </ul>
-
+</div>
     </section>
 </main>
 <footer class="footer">
+    <div class="container">
     <a class="link logo" href="#" lang="en">
         Web<span class="logo-part-white">Studio</span>
     </a>
-    <address class="address">
-        <ul class="addres-list">
-            <li class="address-item list">
-                <a class="footer-contact-link address-link link" href="https://goo.gl/maps/GAFT3e7iSvox3QBL9"
-                    target="_blank" rel="noopener noreferrer"> г. Киев,
-                    пр-т Леси Украинки, 26 </a>
-            </li>
-            <li class="address-item list">
-                <a class="footer-contact-link link" href="mailto:info@example.com">info@example.com</a>
-            </li>
-            <li class="address-item list">
-                <a class="footer-contact-link link" href="tel:+380991111111">+38 099 111 11 11</a>
-            </li>
-        </ul>
-    </address>
+<address class="address">
+    <ul class="addres-list">
+        <li class="address-item list">
+            <a class="footer-contact-link address-link link" href="https://goo.gl/maps/GAFT3e7iSvox3QBL9" target="_blank" rel="noopener noreferrer"> г. Киев, 
+                пр-т Леси Украинки, 26 </a>
+        </li>
+        <li class="address-item list"> 
+            <a class="footer-contact-link link" href="mailto:info@example.com">info@example.com</a>
+        </li>
+        <li class="address-item list">
+            <a class="footer-contact-link link" href="tel:+380991111111">+38 099 111 11 11</a>
+        </li>
+    </ul>
+</address>
+    </div>
 </footer>
 </body>
 </html>
