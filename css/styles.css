@@ -52,6 +52,11 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  margin-bottom: var(--margin-bottom-section);
+}
+
+.header .home-page{
+    margin-bottom: 0;
 }
 
 
@@ -77,14 +82,9 @@ color: var(--colorOn-darkВackground);
 
 
 /* ============== HEADER ============== */
-.header{
-    outline: 1px solid red;
-}
-
 .header .container{
     display: flex;
     align-items: center;
-    outline: 1px solid red;
 }
 
 .navigation{
@@ -149,7 +149,6 @@ color: var(--text-color);
 /* ============== HERO ============== */
 .hero{
     margin-bottom: 94px;
-    outline: 1px solid red;
 }
 .hero-title {
 width: 696px;
@@ -163,7 +162,6 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-/* color: var(--darkВackground-color); */
 }
 /* ============== END HERO ============== */
 
@@ -171,11 +169,8 @@ text-transform: uppercase;
 /* ============== ADVANTAGE ============== */
 .advantage-list{
 display: flex;
-outline: 1px solid red;
 }
-.advantage{
-    margin-bottom: var(--margin-bottom-section);
-}
+
 .advantage-item{
 flex-basis: calc((100% -90px)/ 4);
 }
@@ -198,29 +193,24 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--text-color);
+text-align: justify;
 }
 /* ============== END ADVANTAGE ============== */
 
 
 /* ============== WHAT WE DO ============== */
-.whatWeDo{
-    margin-bottom: var(--margin-bottom-section);
-    outline: 1px solid red;
-}
 .whatWeDo-img{
     min-width: 370px;
     height: auto;
-    outline: 1px solid red;
 }
 
 .whatWeDo-list{
 display: flex;
-outline: 1px solid red;
 }
+
 
 .whatWeDo-item{
 flex-basis: calc((100% -90px)/ 3);
-outline: 1px solid red;
 }
     
 .whatWeDo-list :not(:last-child) {
@@ -234,8 +224,11 @@ margin-right: 30px;
 .ourTeam{
 padding-top: var(--margin-bottom-section);
 padding-bottom: var(--margin-bottom-section);
-outline: 1px solid red;
 background: #F5F4FA;
+}
+
+.ourTeam .container{
+    margin-bottom: 0;
 }
 
 .ourTeam-link-img{
@@ -244,7 +237,6 @@ background: #F5F4FA;
 
 .ourTeam-list{
     display: flex;
-    outline: 1px solid red;
 }
 
 .ourTeam-link{
@@ -304,6 +296,10 @@ color: var(--colorOn-darkВackground);
     display: block;
 }
 
+.footer .container{
+    margin-bottom: 0;
+}
+
 /* ============== END FOOTER ============== */
 
 
@@ -320,6 +316,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor: pointer;
 border-color: var(--accent-color);
+padding: 10px 32px;
 }
 
 .modal-button:hover,
@@ -357,11 +354,6 @@ margin-bottom: var(--margin-bottom-title);
     margin-bottom: var(--margin-bottom-title);
 }
     
-
-.navigation-portfolio{
-margin-bottom: var(--margin-bottom-section);
-}
-
 .ourWorks-section {
 font-weight: 500;
 font-size: 16px;
@@ -393,30 +385,29 @@ padding: 6px 22px;
 }
 
 .ourWorks-card{
-    flex-basis: calc((100% -90px)/ 3);
+    flex-basis: calc((100% - 90px)/ 3);
     margin-bottom: 30px;
+    margin-left: 30px;
     }
         
-    .ourWorks-cards .ourWorks-card + .ourWorks-card {
-    margin-left: 30px;
+    .ourWorks-cards .ourWorks-card:nth-child(3n + 1) {
+        margin-left: 0; 
     }
 
     .ourWorks-card:nth-last-child(-n + 3){
         margin-bottom: 0;
       }
 
+.ourWorks-card list .link{
+display: block;
+}
 .ourWorks-card-img{
     min-width: 370px;
     height: auto;
-    outline: 1px solid red;
 }
 
 .card-caption{
-    width: 100%;
-    box-sizing: border-box;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 24px;
+    padding: 20px 24px;
     border: 1px solid #EEEEEE;
     border-top: none;
 }
