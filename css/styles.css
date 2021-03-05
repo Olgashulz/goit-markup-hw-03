@@ -89,6 +89,7 @@ color: var(--colorOn-darkВackground);
 .header .container{
     display: flex;
     align-items: center;
+    padding-top: 0;
 }
 
 .navigation{
