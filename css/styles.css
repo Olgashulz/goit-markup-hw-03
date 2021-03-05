@@ -151,11 +151,11 @@ color: var(--text-color);
 
 
 /* ============== HERO ============== */
-/* .hero{
+.hero{
 height: 600px;
 padding-top: 200px;
-outline: 1px solid red;
-} */
+/* outline: 1px solid red; */
+}
 
 .container-hero{
 padding: 0 252px;
