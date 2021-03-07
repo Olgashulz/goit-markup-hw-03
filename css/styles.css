@@ -151,15 +151,18 @@ img {
 .hero {
   height: 600px;
   padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
   /* outline: 1px solid red; */
 }
 
 .container-hero {
-  padding: 0 252px;
+  padding-top: 0;
 }
 
 .hero-title {
+  max-width: 696px;
+  margin: 0 auto;
   margin-bottom: 30px;
   text-align: center;
   font-weight: 900;
@@ -214,7 +217,7 @@ outline: 1px solid red;
   padding-bottom: var(--indent);
 }
 .whatWeDo-img {
-  max-width: 370px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -263,7 +266,7 @@ outline: 1px solid red;
   margin-left: 30px;
 }
 .ourTeam-link-img {
-  max-width: 270px;
+  max-width: 100%;
 }
 
 .team-caption {
@@ -400,7 +403,7 @@ outline: 1px solid red;
 }
 
 .ourWorks-card {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
   margin-top: 30px;
   margin-left: 30px;
 }
@@ -417,7 +420,7 @@ outline: 1px solid red;
   display: block;
 }
 .ourWorks-card-img {
-  max-width: 370px;
+  max-width: 100%;
   height: auto;
 }
 
